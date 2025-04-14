@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NeedsReindexing</key>
+	<false/>
+	<key>ObjectIDURIs</key>
+	<array>
+		<string>x-coredata://C1E37739-E6FE-4ED0-850C-91196B837167/IMAPNote/p1</string>
+	</array>
+</dict>
+</plist>
