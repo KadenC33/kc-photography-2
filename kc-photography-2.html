@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="KC Photography is a creative platform that captures life's beauty through stunning visuals and storytelling." />
+  <meta name="keywords" content="Photography, Art, Visual Storytelling, Community, Creativity" />
+  <meta name="author" content="KC Photography" />
+  <title>KC Photography - Capturing Life's Beauty</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background-color: #ffffff; /* White background */
+      color: #333; /* Dark text for readability */
+    }
+    nav {
+      background-color: #ffeb3b; /* Yellow */
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: #f8bbd0; /* Baby Pink */
+      text-decoration: none;
+      margin: 10px 15px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    header {
+      background-color: #f8bbd0; /* Baby Pink */
+      color: #333; /* Dark text */
+      padding: 40px;
+      text-align: center;
+    }
+    section, footer {
+      padding: 20px;
+      margin: auto;
+      max-width: 900px;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      margin-top: 10px;
+      border: 5px solid #ffeb3b; /* Yellow border for images */
+    }
+    form input, form textarea {
+      display: block;
+      width: calc(100% - 20px);
+      margin: 10px 0;
+      padding: 10px;
+      border: 1px solid #f8bbd0; /* Baby Pink border */
+      border-radius: 5px;
+      background-color: #ffffff; /* White background */
+      color: #333; /* Dark text */
+    }
+    form input[type="submit"] {
+      background-color: #ffeb3b; /* Yellow */
+      color: #333; /* Dark text */
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    form input[type="submit"]:hover {
+      background-color: #f8bbd0; /* Baby Pink on hover */
+      color: #333; /* Dark text */
+    }
+    footer {
+      background-color: #ffeb3b; /* Yellow */
+      text-align: center;
+      padding: 15px;
+      color: #f8bbd0; /* Baby Pink text */
+    }
+    footer a {
+      color: #f8bbd0; /* Baby Pink */
+      text-decoration: none;
+      font-weight: bold;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+    @media (max-width: 600px) {
+      header {
+        padding: 20px;
+      }
+      nav {
+        flex-direction: column;
+      }
+      nav a {
+        margin: 5px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav role="navigation">
+    <a href="#home">Home</a>
+    <a href="#services">Services</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#contact">Contact</a>
+    <a href="#gallery">Gallery</a>
+  </nav>
+
+  <header id="home" role="banner">
+    <h1>KC Photography</h1>
+    <p>Capturing life's beauty through stunning visuals and creative storytelling.</p>
+    <img src="https://via.placeholder.com/1200x400?text=KC+Photography+Hero+Image" alt="A breathtaking photograph symbolizing creative photography" />
+  </header>
+
+  <main>
+    <section id="mission" role="region" aria-labelledby="mission-heading">
+      <h2 id="mission-heading">Our Mission & Vision</h2>
+      <p>KC Photography is dedicated to capturing the essence of life's moments. Whether it's the serenity of nature, the energy of urban landscapes, or the emotion of personal milestones, we bring stories to life through the lens.</p>
+      <img src="https://via.placeholder.com/800x300?text=Mission+and+Vision+Image" alt="A serene landscape representing the mission of KC Photography" />
+    </section>
+
+    <section id="services" role="region" aria-labelledby="services-heading">
+      <h2 id="services-heading">What We Offer</h2>
+      <ul>
+        <li>Professional portrait photography</li>
+        <li>Event photography for special occasions</li>
+        <li>Nature and wildlife photography</li>
+        <li>Workshops for aspiring photographers</li>
+      </ul>
+      <img src="https://via.placeholder.com/800x300?text=Photography+Services" alt="Examples of professional photography services" />
+    </section>
+
+    <section id="portfolio" role="region" aria-labelledby="portfolio-heading">
+      <h2 id="portfolio-heading">Portfolio</h2>
+      <p>Explore a curated selection of our favorite projects, showcasing the diversity and creativity of our work.</p>
+      <img src="https://via.placeholder.com/800x300?text=Portfolio+Highlights" alt="Collage of stunning photographs from the portfolio" />
+    </section>
+
+    <section id="contact" role="region" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact the Creator</h2>
+      <p>Feel free to reach out to Kaden Chaisson for any inquiries or collaborations:</p>
+      <ul>
+        <li><strong>Phone Number:</strong> 603-833-3214</li>
+        <li><strong>Email:</strong> <a href="mailto:kadenc3333@gmail.com">kadenc3333@gmail.com</a></li>
+        <li><strong>Instagram:</strong> <a href="https://instagram.com/kadenc333" target="_blank" rel="noopener noreferrer">@kadenc333</a></li>
+      </ul>
+      <h3>Send Us a Message</h3>
+      <form action="mailto:kadenc3333@gmail.com" method="post" enctype="text/plain">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Your Name" required />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Your Email" required />
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+        <input type="submit" value="Send" />
+      </form>
+    </section>
+
+    <section id="gallery" role="region" aria-labelledby="gallery-heading">
+      <h2 id="gallery-heading">Gallery</h2>
+      <p>Immerse yourself in a collection of vibrant and inspiring photographs from our recent projects.</p>
+      <img src="https://via.placeholder.com/800x300?text=Gallery+Image+1" alt="Gallery image 1" />
+      <img src="https://via.placeholder.com/800x300?text=Gallery+Image+2" alt="Gallery image 2" />
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <p>Connect with us:</p>
+    <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a> |
+    <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">Twitter</a> |
+    <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a>
+    <p>&copy; 2025 KC Photography</p>
+  </footer>
+</body>
+</html>
